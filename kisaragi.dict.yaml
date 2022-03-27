@@ -1,0 +1,39 @@
+---
+name: kisaragi
+version: "2021-09-16"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - terra_pinyin
+...
+
+揶揄	nuo2 yu2
+蚵	ke1
+# Work around 為... not completing properly for some reason
+為什麼	wei4 shen2 mo
+為什麼	wei4 shen3 mo
+
+拖曳	tuo1 yi4
+曳	yi4
+
+熟悉	shou2 xi1
+台北國際書展
+大直
+大直國小
+大直高中
+北安路
+士林高商
+北士商
+平台
+漫研
+漫研社
+
+伴手禮
+夏語遙
+略窺
+
+卡式爐
+
+友誼	you3 yi2
+盡你所能
+給予	gei3 yu3

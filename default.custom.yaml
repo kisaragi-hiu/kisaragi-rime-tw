@@ -1,0 +1,11 @@
+patch:
+  menu/page_size: 9
+  schema_list:
+    - schema: bopomofo_tw
+    - schema: hanlo
+    - schema: cangjie5
+  switcher/option_list_separator: "/"
+  switcher/hotkeys:
+    - "Super+f" # Mandarin 方案 -> "Fang An"
+    - F4
+  switcher/caption: "［方案］"
