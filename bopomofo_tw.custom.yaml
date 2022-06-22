@@ -1,2 +1,6 @@
 patch:
-    translator/dictionary: kisaragi
+  translator/dictionary: kisaragi
+  punctuator/full_shape/<: ["，", "・", "＜", "<"]
+  punctuator/half_shape/<: ["，", "・", "＜", "<"]
+  punctuator/full_shape/>: ["。", "…", "＞", ">"]
+  punctuator/half_shape/>: ["。", "…", "＞", ">"]
