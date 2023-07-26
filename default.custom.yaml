@@ -3,6 +3,7 @@ patch:
   schema_list:
     - schema: bopomofo_tw
     - schema: hanlo
+    - schema: pojhan
     - schema: cangjie5
   switcher/option_list_separator: "/"
   switcher/hotkeys:
