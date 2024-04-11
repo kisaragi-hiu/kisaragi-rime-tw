@@ -1,17 +1,7 @@
 patch:
   translator/dictionary: kisaragi
+  translator/enable_user_dict: false
   punctuator/full_shape/<: ["，", "・", "．", "＜", "<", "←"]
   punctuator/half_shape/<: ["，", "・", "．", "＜", "<", "←"]
   punctuator/full_shape/>: ["。", "…", "＞", ">", "→"]
   punctuator/half_shape/>: ["。", "…", "＞", ">", "→"]
-  reverse_lookup:
-    dictionary: cangjie5
-    prism: cangjie5
-    prefix: "`"
-    suffix: "'"
-    tips: 〔倉頡〕
-    preedit_format:
-      - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-    comment_format:
-      # I'm not using it for reverse lookup, so get rid of the comment
-      - xform/.*//

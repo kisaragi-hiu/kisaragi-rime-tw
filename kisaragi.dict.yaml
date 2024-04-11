@@ -5,6 +5,7 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - terra_pinyin
+  # - zhwiktionary-hant
 ...
 
 揶揄	nuo2 yu2
@@ -80,3 +81,23 @@ import_tables:
 
 逾	yu4
 嗶	bi
+檢視器
+目錄檔
+外掛程式
+輸出檔
+勾選方塊
+檢視	jian3 shi4	98%
+執行檔
+微調
+選單列
+子選單
+文字標籤
+游標	you2 biao1	99%
+縮排
+置中
+專案檔
+檔	dang3	98%
+螢幕	ying2 mu4	99%
+字幕檔
+義大利語
+語音辨識
