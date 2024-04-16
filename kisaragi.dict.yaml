@@ -2,7 +2,7 @@
 name: kisaragi
 version: "2021-09-16"
 sort: by_weight
-use_preset_vocabulary: true
+vocabulary: essay-tw
 import_tables:
   - terra_pinyin
   # - zhwiktionary-hant
@@ -101,3 +101,13 @@ import_tables:
 字幕檔
 義大利語
 語音辨識
+儲存為預設值
+設定已儲存
+未設定座標
+新書籤
+已變更
+儲存中
+標頭
+邊車檔
+此選項
+檢視風格
