@@ -1,7 +1,10 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# Terra Pinyin - 地球拼音
+# Terra Pinyin TW - 地球拼音（臺灣用語）
+#
+# * 2024-04-19  如月飛羽 <mail@kisaragi-hiu.com>
+#   - 開始來修我覺得奇怪的用詞
 #
 # * 2012-02-28  佛振 <chen.sst@gmail.com>
 #   - 標註多音字
@@ -22,10 +25,10 @@
 #
 
 ---
-name: terra_pinyin
-version: "2021.08.05"
+name: terra_pinyin_tw
+version: "2024-04-19"
 sort: by_weight
-use_preset_vocabulary: true
+vocabulary: essay-tw
 max_phrase_length: 7
 min_phrase_weight: 100
 ...
