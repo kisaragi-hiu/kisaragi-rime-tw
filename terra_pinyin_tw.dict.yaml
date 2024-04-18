@@ -8369,6 +8369,17 @@ min_phrase_weight: 100
 剔	ti1
 剕	fei4
 剖	pou1
+# Taiwan MOE uses ㄆㄡˇ.
+# https://www.moedict.tw/剖
+# https://youtu.be/5-wvROwucY4?t=0
+# https://youtu.be/mJ52EADc27c?t=43
+剖	pou3
+# Colloquially it's also ㄆㄛˇ.
+# https://youtu.be/_LVJDxzUAxM?t=13
+# https://youtu.be/9uDUsh1g8Bo?t=26
+# https://youtu.be/2LjKBtB4kBM?t=92
+# https://youtu.be/m8lQTfx-VRk?t=16
+剖	puo3
 剗	chan3
 剗	chan4
 剘	qi2
@@ -8609,6 +8620,16 @@ min_phrase_weight: 100
 匡	kuang1
 匢	hu1
 匣	xia2
+# 收件ㄐㄧㄚˊ。
+# https://youtu.be/RBGoNNaluIY?t=20
+# https://youtu.be/zj_HFifd3W0?t=23
+# https://youtu.be/IuURBWb0DFI?t=10
+# https://youtu.be/ViKIPtDjuUw?t=51
+# https://youtu.be/UvvF6tdraOA?t=177
+#
+# ㄒㄧㄚˊ is also used, but y'know.
+# https://youtu.be/qiIaOVQ-lMg?t=161
+匣	jia2
 匤	qu1
 匥	bian4
 匦	gui3
@@ -10144,6 +10165,10 @@ min_phrase_weight: 100
 埞	di3
 域	yu4
 埠	bu4
+# I see these being used as well
+埠	fu4
+埠	fu2
+埠	bu2
 埡	ya4
 埢	juan3
 埢	quan2
@@ -24114,6 +24139,7 @@ min_phrase_weight: 100
 蚳	chi2
 蚴	you4
 蚵	e2
+蚵	ke1
 蚶	han1
 蚷	ju4
 蚸	li4
@@ -25323,6 +25349,8 @@ min_phrase_weight: 100
 誺	lai4
 誻	ta4
 誼	yi4
+# Colloquial zh_TW is ㄧˊ
+誼	yi2
 誽	na2
 誽	ni4
 誾	yin2
@@ -99399,3 +99427,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
+揶揄	nuo2 yu2

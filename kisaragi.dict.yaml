@@ -8,9 +8,6 @@ import_tables:
   # - zhwiktionary-hant
 ...
 
-揶揄	nuo2 yu2
-蚵	ke1
-
 拖曳	tuo1 yi4
 曳	yi4
 
@@ -40,35 +37,10 @@ import_tables:
 專頁
 行前會	xing2 qian2 hui4
 
-埠	fu4
-埠	fu2
-埠	bu2
 連結埠	lian2 jie1 fu4
 連結埠	lian2 jie1 fu2
 連結埠	lian2 jie1 bu4
 連結埠	lian2 jie1 bu2
-# 收件ㄐㄧㄚˊ。
-# https://youtu.be/RBGoNNaluIY?t=20
-# https://youtu.be/zj_HFifd3W0?t=23
-# https://youtu.be/IuURBWb0DFI?t=10
-# https://youtu.be/ViKIPtDjuUw?t=51
-# https://youtu.be/UvvF6tdraOA?t=177
-#
-# ㄒㄧㄚˊ is also used, but y'know.
-# https://youtu.be/qiIaOVQ-lMg?t=161
-匣	jia2
-
-# Taiwan MOE uses ㄆㄡˇ.
-# https://www.moedict.tw/剖
-# https://youtu.be/5-wvROwucY4?t=0
-# https://youtu.be/mJ52EADc27c?t=43
-剖	pou3
-# Colloquially it's also ㄆㄛˇ.
-# https://youtu.be/_LVJDxzUAxM?t=13
-# https://youtu.be/9uDUsh1g8Bo?t=26
-# https://youtu.be/2LjKBtB4kBM?t=92
-# https://youtu.be/m8lQTfx-VRk?t=16
-剖	puo3
 
 漸層
 釘選
@@ -111,3 +83,4 @@ import_tables:
 已加入
 已退休
 算繪
+如月飛羽
