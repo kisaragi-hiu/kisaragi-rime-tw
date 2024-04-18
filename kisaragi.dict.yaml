@@ -1,10 +1,10 @@
 ---
 name: kisaragi
-version: "2021-09-16"
+version: "2024-04-19"
 sort: by_weight
 vocabulary: essay-tw
 import_tables:
-  - terra_pinyin
+  - terra_pinyin_tw
   # - zhwiktionary-hant
 ...
 
