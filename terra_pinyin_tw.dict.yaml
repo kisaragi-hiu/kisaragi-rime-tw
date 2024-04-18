@@ -9554,6 +9554,7 @@ min_phrase_weight: 100
 嗴	qiang1
 嗵	tong1
 嗶	bi4
+嗶	bi
 嗷	ao2
 嗸	ao2
 嗹	lian2
@@ -14744,7 +14745,8 @@ min_phrase_weight: 100
 曱	yue1
 曲	qu1	50%
 曲	qu3	50%
-曳	ye4
+曳	ye4	20%
+曳	yi4	80%
 更	geng1	20%
 更	geng4	80%
 曵	ye4
@@ -26974,7 +26976,8 @@ min_phrase_weight: 100
 逻	luo2
 逼	bi1
 逽	nuo4
-逾	yu2
+逾	yu2	5%
+逾	yu4	95%
 逿	dang4
 逿	tang2
 遀	sui2
@@ -55698,8 +55701,9 @@ min_phrase_weight: 100
 及時處理	ji2 shi2 chu3 li3
 及時行樂	ji2 shi2 xing2 le4
 及期	ji2 qi2
-友誼地久天長	you3 yi4 di4 jiu3 tian1 chang2
-友誼天長地久	you3 yi4 tian1 chang2 di4 jiu3
+友誼	you3 yi2
+友誼地久天長	you3 yi2 di4 jiu3 tian1 chang2
+友誼天長地久	you3 yi2 tian1 chang2 di4 jiu3
 反人道罪行	fan3 ren2 dao4 zui4 xing2
 反倒	fan3 dao4
 反傳算法	fan3 chuan2 suan4 fa3
@@ -77505,9 +77509,6 @@ min_phrase_weight: 100
 熇熇	he4 he4
 熊丸之教	xiong2 wan2 zhi1 jiao4
 熏香	xun4 xiang1
-熒光屏	ying2 guang1 ping2
-熒屏	ying2 ping2
-熒燎	ying2 liao4
 熔漿	rong2 jiang1
 熔融岩漿	rong2 rong2 yan2 jiang1
 熙和	xi1 he2
@@ -77529,12 +77530,12 @@ min_phrase_weight: 100
 熟女	shu2 nv3
 熟嫺	shu2 xian2
 熟字	shu2 zi4
-熟客	shu2 ke4
+熟客	shou2 ke4
 熟年	shu2 nian2
 熟思	shu2 si1
-熟悉	shu2 xi1
+熟悉	shou2 xi1
 熟慣	shu2 guan4
-熟慮	shu2 lv4
+熟慮	shou2 lv4
 熟手	shu2 shou3
 熟料	shu2 liao4
 熟會	shu2 hui4
@@ -77544,7 +77545,7 @@ min_phrase_weight: 100
 熟無熟手	shu2 wu2 shu2 shou3
 熟番	shu2 fan1
 熟皮	shu2 pi2
-熟睡	shu2 shui4
+熟睡	shou2 shui4
 熟知	shu2 zhi1
 熟石灰	shu2 shi2 hui1
 熟石膏	shu2 shi2 gao1
@@ -77556,8 +77557,8 @@ min_phrase_weight: 100
 熟練	shu2 lian4
 熟羅	shu2 luo2
 熟習	shu2 xi2
-熟能無惑	shu2 neng2 wu2 huo4
-熟能生巧	shu2 neng2 sheng1 qiao3
+熟能無惑	shou2 neng2 wu2 huo4
+熟能生巧	shou2 neng2 sheng1 qiao3
 熟腳	shu2 jiao3
 熟苗	shu2 miao2
 熟茶	shu2 cha2
@@ -83038,6 +83039,8 @@ min_phrase_weight: 100
 管樂	guan3 yue4
 管樂器	guan3 yue4 qi4
 管樂隊	guan3 yue4 dui4
+管樂社	guan3 yue4 she4
+管樂團	guan3 yue4 tuan2
 管穴	guan3 xue4
 管窺蠡測	guan3 kui1 li2 ce4
 管鮑分金	guan3 bao4 fen1 jin1
@@ -83910,7 +83913,8 @@ min_phrase_weight: 100
 絡縸	luo4 mo4
 絣扒	beng1 ba1
 絣扒吊拷	beng1 ba1 diao4 kao3
-給予	ji3 yu3
+給予	ji3 yu3	80%
+給予	gei3 yu3	20%
 給事中	ji3 shi4 zhong1
 給付	ji3 fu4
 給使	ji3 shi3
@@ -88681,6 +88685,7 @@ min_phrase_weight: 100
 行列式	hang2 lie4 shi4
 行列輸入法	hang2 lie4 shu1 ru4 fa3
 行刺	xing2 ci4
+行前會	xing2 qian2 hui4
 行劫	xing2 jie2
 行動	xing2 dong4
 行動不便	xing2 dong4 bu2 bian4
@@ -93021,7 +93026,8 @@ min_phrase_weight: 100
 逼綽子	bi1 chuo4 zi5
 逼良爲娼	bi1 liang2 wei2 chang1
 逾分	yu2 fen4
-逾期	yu2 qi2
+逾期	yu4 qi2
+逾時	yu4 shi2
 遁入空門	dun4 ru4 kong1 men2
 遁名匿跡	dun4 ming2 ni4 ji1
 遁藏	dun4 cang2
