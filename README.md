@@ -1,5 +1,24 @@
 # kisaragi-rime-tw
 
+## Install
+
+這裡主要提供的是 `essay-tw.txt`（在地化[八股文詞彙表/語言模型](https://github.com/rime/rime-essay)）和 `terra_pinyin_tw.dict.yaml`。
+
+目前這樣應該可以：
+
+1. clone 這個 repo
+2. 把 `terra_pinyin_tw.dict.yaml` 和 `essay-tw.txt` 放進[使用者資料夾](https://github.com/rime/home/wiki/UserData)裡——也可以用 symlink
+3. 如果你現在用的是 `bopomofo_tw`：
+
+```yaml
+# bopomofo_tw.custom.yaml
+patch:
+  translator/dictionary: terra_pinyin_tw
+  translator/enable_user_dict: false # 開啟或關閉詞頻調整
+```
+
+## Why
+
 我還不知道這要叫什麼名字。
 
 RIME 很不錯，但它預設的用詞字典偏向使用不是臺灣的用語，因此在臺灣華語使用上會有點卡卡的。雖然過去有些部分有修正（像是「和」現在打「ㄏㄢˋ」也不會有問題），但在 essay.txt 跟簡中共用的情況下很難修正。
