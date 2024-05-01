@@ -1,5 +1,8 @@
 # kisaragi-rime-tw
 
+
+Effectively a fork of [rime-essay](https://github.com/rime/rime-essay) and [Terra Pinyin](https://github.com/rime/rime-terra-pinyin).
+
 ## Install
 
 這裡主要提供的是 `essay-tw.txt`（在地化[八股文詞彙表/語言模型](https://github.com/rime/rime-essay)）和 `terra_pinyin_tw.dict.yaml`。
