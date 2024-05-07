@@ -12344,7 +12344,8 @@ min_phrase_weight: 100
 弣	fu3
 弤	di3
 弥	mi2
-弦	xian2
+弦	xian2	70%
+弦	xuan2	30%
 弧	hu2
 弨	chao1
 弩	nu3
@@ -24599,9 +24600,9 @@ min_phrase_weight: 100
 蠾	shu2
 蠾	zhu2
 蠿	zhuo1
-血	xie3
-血	xue4
-血	xue3
+血	xie3	70%
+血	xue4	5%
+血	xue3	25%
 衁	huang1
 衂	niu4
 衃	fou3
