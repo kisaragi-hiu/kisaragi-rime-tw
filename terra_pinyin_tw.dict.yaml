@@ -7906,7 +7906,8 @@ min_phrase_weight: 100
 傻	sha3
 傼	han4
 傽	zhang1
-傾	qing1
+傾	qing1	50%
+傾	qing3	50%
 傿	yan1	50%
 傿	yan4	50%
 僀	di4
