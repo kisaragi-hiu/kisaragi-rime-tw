@@ -10304,7 +10304,8 @@ min_phrase_weight: 100
 塎	yong3
 塏	kai3
 塐	su4
-塑	su4
+塑	su4	50%
+塑	suo4	50%
 塒	shi2
 塓	mi4
 塔	ta3
@@ -17092,7 +17093,8 @@ min_phrase_weight: 100
 溬	qiang1
 溭	ze2
 溮	shi1
-溯	su4
+溯	su4	20%
+溯	shuo4	80%
 溰	ai2
 溱	zhen1
 溲	sou1
@@ -47986,7 +47988,6 @@ min_phrase_weight: 100
 三等分角	san1 deng3 fen1 jiao3
 三級片	san1 ji2 pian4
 三維空間	san1 wei2 kong1 jian1
-三聚氰胺塑膠	san1 ju4 qing1 an1 su4 jiao1
 三腳蝦蟆沒處尋	san1 jiao3 ha2 ma5 mei2 chu4 xun2
 三自愛國教會	san1 zi4 ai4 guo2 jiao4 hui4
 三自教會	san1 zi4 jiao4 hui4
@@ -59260,9 +59261,6 @@ min_phrase_weight: 100
 塌拉骨	ta1 la5 gu3
 塌趿	ta1 sa4
 塌鼻子	ta1 bi2 zi5
-塑膠炸彈	su4 jiao1 zha4 dan4
-塑膠爆炸	su4 jiao1 bao4 zha4
-塑膠玻璃	su4 jiao1 bo1 li5
 塔什干	ta3 shi2 gan1
 塔什庫爾干塔吉克自治縣	ta3 shi2 ku4 er3 gan1 ta3 ji2 ke4 zi4 zhi4 xian4
 塔什庫爾干自治縣	ta3 shi2 ku4 er3 gan1 zi4 zhi4 xian4
@@ -60483,7 +60481,6 @@ min_phrase_weight: 100
 夾布子	jia2 bu4 zi5
 夾帳	jia2 zhang4
 夾帶	jia2 dai4
-夾彩塑	jia2 cai3 su4
 夾心餅乾	jia2 xin1 bing3 gan1
 夾擊	jia2 ji2
 夾攻	jia2 gong1
@@ -68390,7 +68387,6 @@ min_phrase_weight: 100
 捺倒	na4 dao3
 捺定性子	na4 ding4 xing4 zi5
 捻合	nie1 he2
-捻塑	nie1 su4
 捻子	nian3 zi5
 捻手捻腳	nie1 shou3 nie1 jiao3
 捻熄	nian3 xi2
@@ -75319,7 +75315,6 @@ min_phrase_weight: 100
 沿泝	yan2 su4
 沿波討源	yan2 bo1 tao3 yuan2
 沿洄	yan2 hui2
-沿流溯源	yan2 liu2 su4 yuan2
 沿流討源	yan2 liu2 tao3 yuan2
 沿海	yan2 hai3
 沿海口子	yan2 hai3 kou3 zi5
