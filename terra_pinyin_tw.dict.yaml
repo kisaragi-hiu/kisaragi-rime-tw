@@ -8878,10 +8878,10 @@ min_phrase_weight: 100
 叭	ba1
 叮	ding1
 可	ke3
-台	si4	1%
-台	tai1	30%
-台	tai2	30%
-台	yi2	39%
+台	tai2	100%
+# These can just, like, be kept in special cases, I guess
+# 台	tai1	0%
+# 台	yi2	0%
 叱	chi4
 史	shi3
 右	you4
