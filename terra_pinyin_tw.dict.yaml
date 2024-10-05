@@ -25339,8 +25339,8 @@ min_phrase_weight: 100
 読	du2
 誮	hua1
 誯	chang4
-誰	shei2
-誰	shui2
+誰	shei2	99%
+誰	shui2	1%
 誱	jie2
 課	ke4
 誳	jue4
@@ -90334,14 +90334,13 @@ min_phrase_weight: 100
 說長論短	shuo1 chang2 lun4 duan3
 說長道短	shuo1 chang2 dao4 duan3
 誰人	shei2 ren2
-誰人樂隊	shui2 ren2 yue4 dui4
+誰人樂團	shei2 ren2 yue4 tuan2
 誰何	shei2 he2
-誰入地獄	shei2 ru4 di4 yu4
 誰家	shei2 jia1
 誰家竈內無煙	shei2 jia1 zao4 nei4 wu2 yan1
 誰承望	shei2 cheng2 wang4
 誰敢留人到五更	shei2 gan3 liu2 ren2 dao4 wu3 geng1
-誰笑得最好	shui2 xiao4 de2 zui4 hao3
+誰笑得最好	shei2 xiao4 de2 zui4 hao3
 誰能無情	shei2 neng2 wu2 qing2
 誰能無過	shei2 neng2 wu2 guo4
 誰行	shei2 hang2
