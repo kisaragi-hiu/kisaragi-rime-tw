@@ -1,6 +1,6 @@
 patch:
-  translator/dictionary: kisaragi
-  translator/enable_user_dict: false
+  translator/dictionary: terra_pinyin_tw
+  translator/enable_user_dict: true
   punctuator/full_shape/<: ["，", "・", "．", "＜", "<", "←"]
   punctuator/half_shape/<: ["，", "・", "．", "＜", "<", "←"]
   punctuator/full_shape/>: ["。", "…", "＞", ">", "→"]
