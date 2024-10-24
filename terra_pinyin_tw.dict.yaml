@@ -9092,7 +9092,7 @@ min_phrase_weight: 100
 和	he2	90%
 和	he4	3%
 和	hu2	1%
-和	huo2	3%
+和	huo2	0%
 和	huo4	3%
 咍	hai1
 咎	jiu4
@@ -48997,6 +48997,7 @@ min_phrase_weight: 100
 中和力	zhong1 he2 li4
 中和反應	zhong1 he2 fan3 ying4
 中和市	zhong1 he2 shi4
+中和區	zhong1 he2 qu1
 中和殿	zhong1 he2 dian4
 中和節	zhong1 he2 jie2
 中喫	zhong4 chi1
