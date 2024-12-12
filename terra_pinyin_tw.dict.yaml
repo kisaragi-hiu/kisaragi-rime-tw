@@ -9378,6 +9378,7 @@ min_phrase_weight: 100
 啣	xian2
 啤	pi2
 啥	sha2
+啥	ha2
 啦	la1	30%
 啦	la5	70%
 啧	ze2
@@ -93652,6 +93653,7 @@ min_phrase_weight: 100
 都昌縣	du1 chang1 xian4
 都是一家人	dou1 shi4 yi4 jia1 ren2
 都會	du1 hui4
+都會	dou1 hui4	20%
 都會傳奇	du1 hui4 chuan2 qi2
 都會區	du1 hui4 qu1
 都會文學	du1 hui4 wen2 xue2
