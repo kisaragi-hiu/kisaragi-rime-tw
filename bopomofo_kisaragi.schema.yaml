@@ -9,7 +9,7 @@ schema:
     - 佛振 <chen.sst@gmail.com>
     - 如月飛羽 <mail@kisaragi-hiu.com>
   description: |
-    大千式注音符號輸入。修改自 RIME 內建 bopomofo 與 bopomofo_tw 方案，臺灣字型
+    大千式注音符號輸入。修改自 RIME 內建 bopomofo 與 bopomofo_tw 方案，臺灣字形
     不仰賴 OpenCC。
 
     本方案採用「無模式」設計，以大寫字母鍵或上下方向鍵、Enter 鍵選詞；
