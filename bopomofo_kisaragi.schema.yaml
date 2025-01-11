@@ -35,7 +35,7 @@ switches:
       # Example of why not OpenCC: "徐光啓" (name) has to always be that, even
       # in Taiwanese Mandarin, because it's a name. With RIME's OpenCC
       # conversion that's not possible.
-      - 臺灣字形轉換（除錯）
+      - 轉換為臺灣字形（除錯）
 
 speller:
   algebra:
