@@ -2,18 +2,20 @@
 # encoding: utf-8
 
 schema:
-  schema_id: bopomofo
+  schema_id: bopomofo_kisaragi
   name: 注音
-  version: "2.4"
+  version: "1.0"
   author:
     - 佛振 <chen.sst@gmail.com>
+    - 如月飛羽 <mail@kisaragi-hiu.com>
   description: |
-    注音符號輸入，採用「大千式」鍵盤排列。
+    大千式注音符號輸入。修改自 RIME 內建 bopomofo 與 bopomofo_tw 方案，臺灣字型
+    不仰賴 OpenCC。
 
-    本方案採用「無模式」設計，以大寫字母鍵或上下方向鍵、回車鍵選詞；
+    本方案採用「無模式」設計，以大寫字母鍵或上下方向鍵、Enter 鍵選詞；
     空格鍵輸入第一聲，標記爲「ˉ」。
 
-    請配合 librime>=1.3 使用。
+    需要 librime>=1.3。
 
   dependencies:
     - stroke
