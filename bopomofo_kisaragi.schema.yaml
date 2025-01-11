@@ -4,7 +4,7 @@
 schema:
   schema_id: bopomofo
   name: 注音
-  version: '2.4'
+  version: "2.4"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
@@ -21,9 +21,9 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    states: [中文, 西文]
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [半角, 全角]
   - options:
       - zh_hant
       - zh_hans
@@ -63,8 +63,8 @@ menu:
   alternative_select_keys: "ABCDEFGHIJ"
 
 speller:
-  alphabet: '1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'
-  initials: '1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-'
+  alphabet: "1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347"
+  initials: "1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-"
   finals: " 6347"
   delimiter: "'"
   use_space: true
@@ -122,66 +122,66 @@ reverse_lookup:
     - xform/eh/E/
     - xform/([iv])e/$1E/
     - xform/1//
-    - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR2345|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙|'
+    - "xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR2345|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙|"
 
 punctuator:
   full_shape:
-    " " : { commit: "　" }
-    "<" : { commit: "，" }
-    ">" : { commit: "。" }
-    "?" : [ ？, ／, ÷ ]
-    ":" : [ ：, ； ]
-    "'" : { pair: [ "‘", "’" ] }
-    "\"" : { pair: [ "“", "”" ] }
-    "\\" : [ 、, ＼ ]
-    "|" : [ ·, ｜, "§", "¦" ]
-    "`" : ｀
-    "~" : ～
-    "!" : { commit: ！ }
-    "@" : [ ＠, ☯ ]
-    "#" : [ ＃, ⌘ ]
-    "%" : [ ％, "°", "℃" ]
-    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
-    "^" : { commit: …… }
-    "&" : ＆
-    "*" : [ ＊, ·, ・, ×, ※, ❂ ]
-    "(" : （
-    ")" : ）
-    "_" : [ ——, － ]
-    "+" : ＋
-    "=" : ＝
-    "[" : [ 「, 【, 《, 〔, ［ ]
-    "]" : [ 」, 】, 》, 〕, ］ ]
-    "{" : [ 『, 〖, 〈, ｛ ]
-    "}" : [ 』, 〗, 〉, ｝ ]
+    " ": { commit: "　" }
+    "<": { commit: "，" }
+    ">": { commit: "。" }
+    "?": [？, ／, ÷]
+    ":": [：, ；]
+    "'": { pair: ["‘", "’"] }
+    '"': { pair: ["“", "”"] }
+    "\\": [、, ＼]
+    "|": [·, ｜, "§", "¦"]
+    "`": ｀
+    "~": ～
+    "!": { commit: ！ }
+    "@": [＠, ☯]
+    "#": [＃, ⌘]
+    "%": [％, "°", "℃"]
+    "$": [￥, "$", "€", "£", "¥", "¢", "¤"]
+    "^": { commit: …… }
+    "&": ＆
+    "*": [＊, ·, ・, ×, ※, ❂]
+    "(": （
+    ")": ）
+    "_": [——, －]
+    "+": ＋
+    "=": ＝
+    "[": [「, 【, 《, 〔, ［]
+    "]": [」, 】, 》, 〕, ］]
+    "{": [『, 〖, 〈, ｛]
+    "}": [』, 〗, 〉, ｝]
   half_shape:
-    "<" : { commit: "，" }
-    ">" : { commit: "。" }
-    "?" : [ ？, ／, "/", ÷ ]
-    ":" : [ ：, ； ]
-    "'" : { pair: [ "‘", "’" ] }
-    "\"" : { pair: [ "“", "”" ] }
-    "\\" : [ 、, "\\", ＼ ]
-    "|" : [ ·, "|", ｜, "§", "¦" ]
-    "`" : "`"
-    "~" : "~"
-    "!" : { commit: ！ }
-    "@" : "@"
-    "#" : "#"
-    "%" : [ "%", ％, "°", "℃" ]
-    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
-    "^" : { commit: …… }
-    "&" : "&"
-    "*" : [ "*", ＊, ·, ・, ×, ※, ❂ ]
-    "(" : （
-    ")" : ）
-    "_" : [ ——, －, "-" ]
-    "+" : "+"
-    "=" : "="
-    "[" : [ 「, 【, 《, 〔, ［ ]
-    "]" : [ 」, 】, 》, 〕, ］ ]
-    "{" : [ 『, 〖, 〈, ｛ ]
-    "}" : [ 』, 〗, 〉, ｝ ]
+    "<": { commit: "，" }
+    ">": { commit: "。" }
+    "?": [？, ／, "/", ÷]
+    ":": [：, ；]
+    "'": { pair: ["‘", "’"] }
+    '"': { pair: ["“", "”"] }
+    "\\": [、, "\\", ＼]
+    "|": [·, "|", ｜, "§", "¦"]
+    "`": "`"
+    "~": "~"
+    "!": { commit: ！ }
+    "@": "@"
+    "#": "#"
+    "%": ["%", ％, "°", "℃"]
+    "$": [￥, "$", "€", "£", "¥", "¢", "¤"]
+    "^": { commit: …… }
+    "&": "&"
+    "*": ["*", ＊, ·, ・, ×, ※, ❂]
+    "(": （
+    ")": ）
+    "_": [——, －, "-"]
+    "+": "+"
+    "=": "="
+    "[": [「, 【, 《, 〔, ［]
+    "]": [」, 】, 》, 〕, ］]
+    "{": [『, 〖, 〈, ｛]
+    "}": [』, 〗, 〉, ｝]
 
 editor:
   bindings:
@@ -190,9 +190,9 @@ editor:
 key_binder:
   import_preset: default
   bindings:
-    - { when: has_menu, accept: comma, send: comma }      # ㄝ
-    - { when: has_menu, accept: period, send: period }    # ㄡ
-    - { when: has_menu, accept: minus, send: minus }      # ㄦ
+    - { when: has_menu, accept: comma, send: comma } # ㄝ
+    - { when: has_menu, accept: period, send: period } # ㄡ
+    - { when: has_menu, accept: minus, send: minus } # ㄦ
     - { when: paging, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
 
@@ -207,13 +207,13 @@ zh_hans:
   option_name: zh_hans
   opencc_config: t2s.json
   tips: all
-  excluded_types: [ reverse_lookup ]
+  excluded_types: [reverse_lookup]
 
 zh_hant_tw:
   option_name: zh_hant_tw
   opencc_config: t2tw.json
   tips: none
-  excluded_types: [ reverse_lookup ]
+  excluded_types: [reverse_lookup]
 
 __patch:
   # 使用八股文語言模型
