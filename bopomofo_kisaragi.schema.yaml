@@ -78,7 +78,8 @@ speller:
       - zhuyin:/keymap_bopomofo
 
 translator:
-  dictionary: terra_pinyin
+  dictionary: terra_pinyin_tw
+  enable_user_dict: true
   prism: bopomofo
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
@@ -129,8 +130,8 @@ reverse_lookup:
 punctuator:
   full_shape:
     " ": { commit: "　" }
-    "<": { commit: "，" }
-    ">": { commit: "。" }
+    "<": ["，", "・", "．", "＜", "<", "←"]
+    ">": ["。", "…", "＞", ">", "→"]
     "?": [？, ／, ÷]
     ":": [：, ；]
     "'": { pair: ["‘", "’"] }
@@ -157,8 +158,8 @@ punctuator:
     "{": [『, 〖, 〈, ｛]
     "}": [』, 〗, 〉, ｝]
   half_shape:
-    "<": { commit: "，" }
-    ">": { commit: "。" }
+    "<": ["，", "・", "．", "＜", "<", "←"]
+    ">": ["。", "…", "＞", ">", "→"]
     "?": [？, ／, "/", ÷]
     ":": [：, ；]
     "'": { pair: ["‘", "’"] }
