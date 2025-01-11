@@ -27,13 +27,16 @@ switches:
   - name: full_shape
     states: [半角, 全角]
   - options:
-      - zh_hant
+      - zh_tw
       - zh_hans
-      - zh_hant_tw
+      - zh_hant_tw_convert
     states:
-      - 傳統漢字
-      - 简化字
       - 臺灣字形
+      - 简体字
+      # 目前 essay-tw.txt 還很多非臺灣慣用傳統漢字
+      # 希望異體字也能簡單的放在 essay-tw.txt 裡面
+      # 但這個選項先留著
+      - 臺灣字形轉換（除錯）
 
 engine:
   processors:
@@ -58,7 +61,7 @@ engine:
     - script_translator
   filters:
     - simplifier@zh_hans
-    - simplifier@zh_hant_tw
+    - simplifier@zh_hant_tw_convert
     - uniquifier
 
 menu:
@@ -211,8 +214,8 @@ zh_hans:
   tips: all
   excluded_types: [reverse_lookup]
 
-zh_hant_tw:
-  option_name: zh_hant_tw
+zh_hant_tw_convert:
+  option_name: zh_hant_tw_convert
   opencc_config: t2tw.json
   tips: none
   excluded_types: [reverse_lookup]
