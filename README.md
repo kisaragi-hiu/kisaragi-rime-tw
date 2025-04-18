@@ -1,6 +1,5 @@
 # kisaragi-rime-tw
 
-
 Effectively a fork of [rime-essay](https://github.com/rime/rime-essay) and [Terra Pinyin](https://github.com/rime/rime-terra-pinyin).
 
 ## Install
@@ -21,6 +20,8 @@ patch:
 ```
 
 ## Why
+
+*2025-04-18T14:44:12+0900: 上游的 rime/rime-essay 又開始在更新了，或許直接用上游會比較無痛。我繼續用這個只是習慣。*
 
 我還不知道這要叫什麼名字。
 
