@@ -47859,7 +47859,8 @@ min_phrase_weight: 100
 七分像鬼	qi1 fen1 xiang4 gui3
 七十二地煞	qi1 shi2 er4 di4 sha4
 七十二行	qi1 shi2 er4 hang2
-七和絃	qi1 he2 xian2
+七和弦	qi1 he2 xian2
+七和弦	qi1 he2 xuan2
 七夕	qi1 xi4
 七孔流血	qi1 kong3 liu2 xie3
 七折八扣	qi1 zhe2 ba1 kou4
@@ -47920,7 +47921,7 @@ min_phrase_weight: 100
 三叉路	san1 cha1 lu4
 三句不離本行	san1 ju4 bu4 li2 ben3 hang2
 三和弦	san1 he2 xian2
-三和絃	san1 he2 xian2
+三和弦	san1 he2 xuan2
 三和路	san1 he2 lu4
 三回九曲	san1 hui2 jiu3 qu1
 三回九轉	san1 hui2 jiu3 zhuan3
@@ -49221,8 +49222,8 @@ min_phrase_weight: 100
 主動脈弓	zhu3 dong4 mai4 gong1
 主和	zhu3 he2
 主和弦	zhu3 he2 xian2
+主和弦	zhu3 he2 xuan2
 主和派	zhu3 he2 pai4
-主和絃	zhu3 he2 xian2
 主場	zhu3 chang3
 主子	zhu3 zi5
 主將	zhu3 jiang4
@@ -56886,6 +56887,7 @@ min_phrase_weight: 100
 和弄	huo4 nong4
 和式	he2 shi4
 和弦	he2 xian2
+和弦	he2 xuan2
 和得來	he2 de5 lai2
 和息	he2 xi2
 和悅	he2 yue4
@@ -56958,7 +56960,6 @@ min_phrase_weight: 100
 和稀泥	huo4 xi1 ni2
 和穆	he2 mu4
 和約	he2 yue1
-和絃	he2 xian2
 和緩	he2 huan3
 和縣	he2 xian4
 和美	he2 mei3
