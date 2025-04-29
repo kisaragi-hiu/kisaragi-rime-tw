@@ -53,7 +53,7 @@ engine:
 translator:
   dictionary: terra_pinyin_tw
   prism: bopomofo_kisaragi
-  enable_user_dict: false
+  enable_user_dict: true
 
 punctuator:
   full_shape:
