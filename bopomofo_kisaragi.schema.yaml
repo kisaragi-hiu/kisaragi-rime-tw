@@ -9,7 +9,7 @@ __patch:
 schema:
   schema_id: bopomofo_kisaragi
   name: 注音
-  version: "1.2"
+  version: "2.0"
   author:
     - 如月飛羽 <mail@kisaragi-hiu.com>
   description: |
@@ -36,13 +36,6 @@ switches:
       # in Taiwanese Mandarin, because it's a name. With RIME's OpenCC
       # conversion that's not possible.
       - 轉換為臺灣字形（除錯）
-
-speller:
-  algebra:
-    __patch:
-      - zhuyin:/pinyin_to_zhuyin
-      - zhuyin:/abbreviation
-      - zhuyin:/keymap_bopomofo
 
 engine:
   filters:
