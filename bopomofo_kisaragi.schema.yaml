@@ -43,6 +43,19 @@ engine:
     - simplifier@zh_hant_tw_convert
     - uniquifier
 
+speller:
+  algebra:
+    __patch:
+      - zhuyin:/pinyin_to_zhuyin
+      # ㄓㄨㄤㄓ matches 症狀 before 裝置
+      # because it is equivalent to ㄓ ㄓㄨㄤ
+      # and 症狀 is heavily weighted
+      # and this free order matching has zero penalty on the weight
+      # It's fucking unusable
+      # - zhuyin:/free_order
+      - zhuyin:/abbreviation
+      - zhuyin:/keymap_bopomofo
+
 translator:
   dictionary: terra_pinyin_tw
   prism: bopomofo_kisaragi
